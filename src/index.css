@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 图片长宽固定：
+display：block; position:absolute;bottom|top|left|right:0 */
+/* 图片长宽固定：
+margin-left:calc（(100vw-宽px)/2）
+margin-left:calc（(100vw-宽px)/2）;*/
+
+/* var img=new Image();
+img.src=;
+img.onload=function(){
+    console.log(img.natureHeight,img.natureWidth);
+    var _img=document.createElement('img');
+    _img.src="";
+    _img.style.cssText='width:${img.naturalWidth}px;height:${img.natureHeight}px';
+    document.body.appendChild(_img)
+} */
